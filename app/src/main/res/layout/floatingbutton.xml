@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#bb000000"
+    android:id="@+id/coordinator"
+    android:clickable="true">
+
+    <android.support.v7.widget.AppCompatTextView
+    android:layout_width="wrap_content"
+        android:id="@+id/favtv1"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom|end"
+    android:layout_marginTop="@dimen/fab_margin"
+    android:layout_marginRight="70dp"
+    android:textColor="@android:color/holo_green_dark"
+    android:background="@android:drawable/editbox_background_normal"
+    android:text="  My Questions  "
+    android:layout_marginBottom="112dp"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:layout_marginRight="24dp"
+        app:fabSize="mini"
+        android:src="@android:drawable/stat_notify_chat"
+        android:layout_marginBottom="106dp"
+        tools:ignore="RtlHardcoded" />
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/favtv2"
+        android:layout_gravity="bottom|end"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:layout_marginRight="70dp"
+        android:textColor="@android:color/holo_green_dark"
+        android:background="@android:drawable/editbox_background_normal"
+        android:text="@string/recent_questions"
+        android:layout_marginBottom="182dp"
+        tools:ignore="RtlHardcoded" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:layout_marginRight="24dp"
+        app:fabSize="mini"
+        android:src="@android:drawable/ic_menu_search"
+        android:layout_marginBottom="176dp"
+        tools:ignore="RtlHardcoded" />
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/favtv3"
+        android:layout_gravity="bottom|end"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:layout_marginRight="70dp"
+        android:textColor="@android:color/holo_green_dark"
+        android:background="@android:drawable/editbox_background_normal"
+        android:text="  Have a questions? Ask Now.  "
+        android:layout_marginBottom="252dp"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:layout_marginRight="24dp"
+        app:fabSize="mini"
+        android:src="@android:drawable/ic_dialog_email"
+        android:layout_marginBottom="246dp"
+        tools:ignore="RtlHardcoded" />
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:textColor="@android:color/holo_green_dark"
+        android:background="@android:drawable/editbox_background_normal"
+        android:text="@string/happy_reading_have_a_nice_day"
+        android:textSize="18sp"
+        android:layout_marginBottom="322dp"
+        tools:ignore="RtlHardcoded" />
+
+</android.support.design.widget.CoordinatorLayout>

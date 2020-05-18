@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/one"
+        android:title="Networking Basics"
+        tools:ignore="HardcodedText" />
+    <item
+        android:title="Objective Networking Questions (CCNA)"
+        tools:ignore="ExtraText,HardcodedText">
+        <menu>
+            <item
+                android:id="@+id/two"
+                android:title="Networking Basics (MCQs)"
+                tools:ignore="HardcodedText" />
+            <item
+                android:id="@+id/three"
+                android:title="TCP/IP" />
+            <item
+                android:id="@+id/four"
+                android:title="@string/ios_and_security_device_manager" />
+            <item
+                android:id="@+id/five"
+                android:title="@string/ip_routing" />
+            <item
+                android:id="@+id/six"
+                android:title="Spanning Tree Protocol" />
+            <item
+                android:id="@+id/seven"
+                android:title="Security" />
+            <item
+                android:id="@+id/eight"
+                android:title="Wireless Technologies" />
+            <item
+                android:id="@+id/nine"
+                android:title="Wide Area Networks" />
+            <item
+                android:id="@+id/ten"
+                android:title="Internetworking"
+                tools:ignore="HardcodedText" />
+            <item
+                android:id="@+id/eleven"
+                android:title="Subnetting" />
+            <item
+                android:id="@+id/twelve"
+                android:title="Managing a Cisco Internetwork"
+                tools:ignore="HardcodedText" />
+            <item
+                android:id="@+id/thirteen"
+                android:title="@string/eigrp_and_ospf" />
+            <item
+                android:id="@+id/fourteen"
+                android:title="Virtual LANs" />
+            <item
+                android:id="@+id/fifteen"
+                android:title="Network Address Translation"
+                tools:ignore="HardcodedText" />
+            <item
+                android:id="@+id/sixteen"
+                android:title="IPv6"
+                tools:ignore="HardcodedText" />
+        </menu>
+        Networking Basics
+
+
+
+
+
+
+
+
+
+
+
+
+        Network Address Translation
+
+
+    </item>
+</menu>

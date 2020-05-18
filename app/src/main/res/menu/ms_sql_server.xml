@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/one"
+        android:title="SQL Server General Questions"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/two"
+        android:title="SQL Server Common Questions"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/three"
+        android:title="@string/sql_server_2008" />
+</menu>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/one"
+        android:title="The C Language Basics"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/two"
+        android:title="Bits and Bytes"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/three"
+        android:title="Preprocessors"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/four"
+        android:title="@string/arrays"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/five"
+        android:title="Data Files"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/six"
+        android:title="Variables and Data Storage"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/seven"
+        android:title="Functions"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/eight"
+        android:title="Strings"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/nine"
+        android:title="Pointers"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/ten"
+        android:title="Standard Library Functions"
+        tools:ignore="HardcodedText" />
+</menu>

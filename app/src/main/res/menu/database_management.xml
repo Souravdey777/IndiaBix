@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/one"
+        android:title="DBMS Basics"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/two"
+        android:title="More on DBMS"
+        tools:ignore="HardcodedText" />
+</menu>

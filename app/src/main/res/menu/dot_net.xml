@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/one"
+        android:title="@string/net_framework" />
+    <item
+        android:id="@+id/two"
+        android:title="@string/object_oriented_programming" />
+    <item
+        android:id="@+id/three"
+        android:title="ADO.NET"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/four"
+        android:title="@string/dynamic_programming" />
+    <item
+        android:id="@+id/five"
+        android:title="ASP.NET"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/six"
+        android:title="@string/windows_workflow_foundation" />
+    <item
+        android:id="@+id/seven"
+        android:title="Application Deployment"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/eight"
+        android:title="Cloud Computing"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/nine"
+        android:title=".NET Programming Concepts"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/ten"
+        android:title="@string/windows_controls" />
+
+    <item
+        android:id="@+id/eleven"
+        android:title="@string/language_integrated_query_linq" />
+    <item
+        android:id="@+id/twelve"
+        android:title="XML"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/thirteen"
+        android:title="@string/web_services" />
+    <item
+        android:id="@+id/fourteen"
+        android:title="ASP.NET AJAX"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/fifteen"
+        android:title=".NET Assemblies"
+        tools:ignore="HardcodedText" />
+</menu>

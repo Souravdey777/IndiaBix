@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="here_you_can_read_aptitude_questions_and_answers_for_your_interview_and_entrance_exams_preparation">Here, you can read aptitude questions and answers for your interview and entrance exams preparation.</string>
+    <string name="logo_for_indiabix">logo for IndiaBIX</string>
+    <string name="online_test">Online Test</string>
+    <string name="happy_reading_have_a_nice_day" translatable="false">Happy Reading... Have a nice day!</string>
+    <string name="recent_questions">Recent Questions</string>
+</resources>

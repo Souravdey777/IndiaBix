@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">IndiaBix</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_About">About</string>
+    <string name="add_widget">Add widget</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="title_activity_online__test">Online_Test</string>
+    <string name="here_you_can_read_aptitude_questions_and_answers_for_your_interview_and_entrance_exams_preparation">Here, you can read aptitude questions and answers for your interview and entrance exams preparation.</string>
+    <string name="indiabix">IndiaBix</string>
+    <string name="logo_for_indiabix">logo for IndiaBIX</string>
+    <string name="online_test">Online Test</string>
+    <string name="happy_reading_have_a_nice_day">Happy Reading... Have a nice day!</string>
+    <string name="recent_questions">Recent Questions</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_puzzles">Puzzles</string>
+    <string name="arrays">Arrays</string>
+    <string name="net_framework">.NET Framework</string>
+    <string name="dynamic_programming">Dynamic Programming</string>
+    <string name="language_integrated_query_linq">Language-Integrated Query (LINQ)</string>
+    <string name="object_oriented_programming">Object-Oriented Programming</string>
+    <string name="web_services">Web Services</string>
+    <string name="windows_controls">Windows Controls</string>
+    <string name="windows_workflow_foundation">Windows Workflow Foundation</string>
+    <string name="advanced_java">Advanced java</string>
+    <string name="string_advanced_java" />
+    <string name="sql_server_2008">SQL Server 2008</string>
+    <string name="eigrp_and_ospf">EIGRP and OSPF</string>
+    <string name="ios_and_security_device_manager">IOS and Security Device Manager</string>
+    <string name="ip_routing">IP Routing</string>
+    <string name="operating_system_basics">Operating System Basics</string>
+    <string name="automated_testing">Automated Testing</string>
+    <string name="software_testing_basics">Software Testing Basics</string>
+    <string name="the_software_processes">The Software Processes</string>
+    <string name="unix_memory_management">Unix Memory Management</string>
+</resources>

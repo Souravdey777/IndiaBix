@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/one"
+        android:title="@string/software_testing_basics" />
+    <item
+        android:id="@+id/two"
+        android:title="@string/the_software_processes" />
+    <item
+        android:id="@+id/three"
+        android:title="Six Sigma"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/four"
+        android:title="@string/automated_testing" />
+    <item
+        android:id="@+id/five"
+        android:title="Testing Techniques"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/six"
+        android:title="CMMI"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/seven"
+        android:title="Metrics"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/eight"
+        android:title="Testing Estimation"
+        tools:ignore="HardcodedText" />
+</menu>

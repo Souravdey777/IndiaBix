@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="souravapp.indiabix">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/applogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FloatingButtonActivity"
+            android:theme="@style/customtheme" />
+        <activity android:name=".Alarm" />
+        <activity android:name=".GeneralAptitutude" />
+        <activity android:name=".ArithematicAptitude" />
+        <activity android:name=".DataInterpretation" />
+        <activity android:name=".VerbalAndReasoning" />
+        <activity android:name=".VerbalAbility" />
+        <activity android:name=".LogicalReasoning" />
+        <activity android:name=".VerbalReasoning" />
+        <activity android:name=".NonVerbalReasoning" />
+        <activity android:name=".GeneralKnowledge" />
+        <activity android:name=".Engineering" />
+        <activity android:name=".MechanicalEngineering" />
+        <activity android:name=".CivilEngineering" />
+        <activity android:name=".ElectronicsAndCommunicationEngineering" />
+        <activity android:name=".ElectricalAndElectronicsEngineering" />
+        <activity android:name=".ComputerScienceEngineering" />
+        <activity android:name=".ChemicalEngineering" />
+        <activity android:name=".Programming" />
+        <activity android:name=".CProgramming" />
+        <activity android:name=".CppProgramming" />
+        <activity android:name=".ChashProgramming" />
+        <activity android:name=".JavaProgramming" />
+        <activity android:name=".InterviewPattern" />
+        <activity android:name=".InterviewTechnical" />
+        <activity android:name=".BodyLanguage" />
+        <activity android:name=".WEBVIEW0" />
+        <activity android:name=".WEBVIEW" />
+        <activity android:name=".WEBVIEW2" />
+        <activity android:name=".WEBVIEW3" />
+        <activity android:name=".WEBVIEW4" />
+        <activity android:name=".WEBVIEW5" />
+        <activity android:name=".WEBVIEW6" />
+        <activity android:name=".WEBVIEW7" />
+        <activity android:name=".WEBVIEW8" />
+        <activity android:name=".WEBVIEW9" />
+        <activity android:name=".WEBVIEW11" />
+        <activity android:name=".WEBVIEW12" />
+        <activity android:name=".WEBVIEW13" />
+        <activity android:name=".WEBVIEW14" />
+        <activity android:name=".WEBVIEW15" />
+        <activity android:name=".WEBVIEW16" />
+        <activity android:name=".WEBVIEW17" />
+        <activity android:name=".WEBVIEW18" />
+        <activity android:name=".WEBVIEW19" />
+        <activity android:name=".WEBVIEW20" />
+        <activity android:name=".WEBVIEW21" />
+        <activity android:name=".WEBVIEW22" />
+
+        <receiver
+            android:icon="@drawable/applogo"
+            android:name="xml.AppWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/app_widget_info" />
+        </receiver>
+
+        <activity
+            android:name=".Online_Test"
+            android:label="@string/title_activity_online__test"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Puzzles"
+            android:label="@string/title_activity_puzzles"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

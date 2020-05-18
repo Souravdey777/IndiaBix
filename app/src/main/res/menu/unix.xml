@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/one"
+        android:title="Unix File Management"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/two"
+        android:title="@string/unix_memory_management" />
+    <item
+        android:id="@+id/three"
+        android:title="Unix Process Management"
+        tools:ignore="HardcodedText" />
+</menu>
